@@ -27,5 +27,14 @@ describe 'Fizzbuzz' do
         it 'the number' do 
             expect(fizzbuzz(1)).to eq 1
         end
+        it 'Fizz' do
+            expect(fizzbuzz(3)).to eq 'Fizz'
+        end
+        it 'Buzz' do
+            expect(fizzbuzz(5)).to eq 'Buzz'
+        end
+        it 'Fizzbuzz' do
+            expect(fizzbuzz(15)).to eq 'Fizzbuzz'
+        end
     end
 end
