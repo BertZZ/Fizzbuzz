@@ -10,4 +10,8 @@ describe 'Fizzbuzz' do
     it 'knows if a number is not divisible by 3' do
          expect(is_divisible_by_three?(1)).not_to be_truthy
      end
+     
+     it 'knows if a number is not divisible by 5' do
+         expect(is_divisible_by_five?(1)).not_to be_truthy
+     end
 end
